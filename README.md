@@ -33,7 +33,7 @@ I cut it down to a **Syllabus Discovery proof of concept** that finds chapters b
 ## Outcome
 
 - 140 students joined the Telegram community.
-- I pitched the program to my employer's management. They declined, because it could compete with their own offline enrolment. As an employee, I held back the public launch rather than run a competing program without consent.
+- I pitched the program to the institute's director. He declined, because it could compete with the institute's own offline enrolment. As an employee, I held back the public launch rather than run a competing program without consent.
 - **Status: on hold.** The LMS stayed a prototype and was never deployed.
 
 ## How it was built
