@@ -3,11 +3,11 @@
 An exam-prep EdTech pilot I co-founded: a 140-student Telegram learning community, branded course decks and a three-sided learning platform (LMS) prototype for students, faculty and admins.
 
 > **Showcase repo.** This repository holds the product story and screenshots only. AI coding tools wrote the prototype under my direction, and the code isn't published here.
-> **Full case study:** https://shriniketan-portfolio.web.app/#/case/akshara-bodha-lms
+> **Full case study:** https://shriniketan-portfolio.web.app/case/akshara-bodha-lms/
 
 ## The problem
 
-Students preparing for banking and other competitive exams (IBPS/SBI, SSC/Railways, PGCET, MAT) had their study material scattered across apps and chats. Faculty double-booked class slots, and admins couldn't see which classes actually ran. The idea came from using my own MBA university's online learning platform as a student.
+Students preparing for banking and other competitive exams (IBPS/SBI, SSC/Railways, PGCET, MAT) had their study material scattered across apps and chats. Faculty teach every topic at a classroom smartboard, but online there was no board to teach on and save the notes for students. Admins couldn't see which classes actually ran. The idea came from using my own MBA university's online learning platform as a student.
 
 ## What I did
 
@@ -18,7 +18,7 @@ I co-founded it with a Quantitative Aptitude faculty partner, who taught. I ran 
 - **Pricing:** a ₹999 micro-batch, shown against a ₹5,000 reference price.
 - **LMS prototype** with three roles:
   - Students: dashboard, materials, schedule, assessments.
-  - Faculty: a slot picker that prevents double-booking, and a one-screen quiz builder.
+  - Faculty: a self-serve slot picker and a one-screen quiz builder. An in-app teaching board with saved, shareable notes was planned but not built: it would have taken too long, and third-party board tools weren't free.
   - Admins: approving the class schedule and monitoring live classes.
 
 ## The key product decision: scoping back the AI "Book Builder"
@@ -39,7 +39,7 @@ I cut it down to a **Syllabus Discovery proof of concept** that finds chapters b
 ## How it was built
 
 - **My role:** product strategy, UX for three roles, brand, course-deck design, pricing, and community operations.
-- **AI tools:** Google Antigravity.
+- **AI tools:** Google AI Studio, then Google Antigravity once it launched.
 - **Stack:** React/Vite, Tailwind CSS, Firebase Auth & Firestore, Gemini API on Google Cloud.
 
 ## Screenshots
